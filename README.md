@@ -1,5 +1,3 @@
-# Maha Monir
-
 <p align="center">
   <img src="assets/img/photo.jpg" alt="Maha Monir" width="150" height="150" style="border-radius: 50%;" />
 </p>
@@ -7,11 +5,11 @@
 <h1 align="center">Maha Monir</h1>
 
 <p align="center">
-  <strong>Technical Office Manager</strong>
+  <strong>Technical Office Manager</strong> — Short Circuit Company
 </p>
 
 <p align="center">
-  Short Circuit Company · Lighting Systems · Engineering Coordination
+  Lighting Systems &nbsp;·&nbsp; Technical Documentation &nbsp;·&nbsp; Engineering Coordination
 </p>
 
 <p align="center">
@@ -19,7 +17,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Connect-EB1B26?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://shortcircuit.company">
-    <img src="https://img.shields.io/badge/Company%20Website-Visit-EB1B26?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Company Website" />
+    <img src="https://img.shields.io/badge/Short%20Circuit%20Company-Visit-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Company Website" />
   </a>
 </p>
 
@@ -27,90 +25,84 @@
   <sub>Egypt</sub>
 </p>
 
----
+<br>
 
-## About Me
+## About
 
-I am a **Technical Office Manager at Short Circuit Company**, overseeing technical documentation, project coordination, and engineering delivery across the company's lighting and installation work.
+Technical Office Manager at **Short Circuit Company**, responsible for the documentation, coordination, and delivery quality behind the company's lighting and installation projects.
 
-My role connects **engineering requirements, technical documentation, project coordination, and practical execution**, helping ensure that lighting systems are properly documented and delivered with clarity and consistency.
+The role sits at the intersection of engineering requirements, technical documentation, and project execution — translating design intent into accurate, consistent deliverables and keeping cross-functional teams aligned from planning through handover.
 
-I work across projects involving **DMX lighting control, LED installations, technical reporting, and large-scale lighting coordination**.
+Primary areas of work include **DMX lighting control systems**, **large-scale LED installations**, and the **technical reporting** that supports them.
 
----
+<br>
 
 ## Areas of Responsibility
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
-### Technical Office Management
-
+**Technical Office Management**
 - Technical documentation and engineering deliverables
-- Project coordination and technical follow-up
-- Organizing project information and documentation
-- Supporting consistent engineering workflows
+- Project coordination and technical follow-up through delivery
+- Structuring and maintaining project documentation
+- Standardizing engineering workflows across projects
 
-    </td>
-    <td width="50%" valign="top">
+</td>
+<td width="50%" valign="top">
 
-### Lighting & Installation
-
+**Lighting & Installation**
 - DMX lighting control systems
 - LED installation coordination
 - Lighting system documentation
-- Technical reports for large-scale installations
+- Technical reporting for large-scale installations
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
----
+<br>
 
 ## Selected Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
-### DMX Hall Lighting Installation
+**DMX Hall Lighting Installation**
 
 Technical documentation and system design for a large-scale DMX lighting control installation.
 
-**Focus**
+`DMX Systems` `Technical Documentation` `Project Coordination`
 
-`DMX Systems` · `Technical Documentation` · `Project Coordination`
+</td>
+<td width="50%" valign="top">
 
-    </td>
-    <td width="50%" valign="top">
+**Synchronized LED Installation**
 
-### Synchronized LED Installation
+Technical report and coordination for a synchronized, large-scale LED installation.
 
-Technical report and coordination for a synchronized large-scale LED installation.
+`LED Systems` `Technical Reporting` `Engineering Coordination`
 
-**Focus**
-
-`LED Systems` · `Technical Reporting` · `Engineering Coordination`
-
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
----
+<br>
 
 ## Professional Focus
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Technical%20Office%20Management-111111?style=flat-square&logoColor=white" alt="Technical Office Management" />
-  <img src="https://img.shields.io/badge/Engineering%20Documentation-111111?style=flat-square&logoColor=white" alt="Engineering Documentation" />
-  <img src="https://img.shields.io/badge/Project%20Coordination-111111?style=flat-square&logoColor=white" alt="Project Coordination" />
+  <img src="https://img.shields.io/badge/Technical%20Office%20Management-000000?style=flat-square&logoColor=white" alt="Technical Office Management" />
+  <img src="https://img.shields.io/badge/Engineering%20Documentation-000000?style=flat-square&logoColor=white" alt="Engineering Documentation" />
+  <img src="https://img.shields.io/badge/Project%20Coordination-000000?style=flat-square&logoColor=white" alt="Project Coordination" />
   <img src="https://img.shields.io/badge/DMX%20Lighting-EB1B26?style=flat-square&logoColor=white" alt="DMX Lighting" />
   <img src="https://img.shields.io/badge/LED%20Installations-EB1B26?style=flat-square&logoColor=white" alt="LED Installations" />
-  <img src="https://img.shields.io/badge/Technical%20Reporting-111111?style=flat-square&logoColor=white" alt="Technical Reporting" />
+  <img src="https://img.shields.io/badge/Technical%20Reporting-EB1B26?style=flat-square&logoColor=white" alt="Technical Reporting" />
 </p>
 
----
+<br>
 
 ## Connect
 
@@ -119,7 +111,7 @@ Technical report and coordination for a synchronized large-scale LED installatio
     <img src="https://img.shields.io/badge/LinkedIn-Maha%20Monir-EB1B26?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://shortcircuit.company">
-    <img src="https://img.shields.io/badge/Short%20Circuit%20Company-Official%20Website-111111?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Short Circuit Company" />
+    <img src="https://img.shields.io/badge/Short%20Circuit%20Company-Official%20Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Short Circuit Company" />
   </a>
 </p>
 
