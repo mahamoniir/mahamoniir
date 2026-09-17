@@ -1,0 +1,33 @@
+{
+  "person": {
+    "name": "Maha Monir",
+    "title": "Technical Office Manager",
+    "company": "Short Circuit Company",
+    "bio": "Leads the technical office at Short Circuit Company, overseeing lighting system documentation, project coordination, and engineering delivery across the company's DMX and LED installation work.",
+    "photo": "assets/img/photo-placeholder.svg",
+    "location": "Egypt"
+  },
+  "contact": {
+    "phone": "+201023587254",
+    "whatsapp": "+201023587254",
+    "email": "maha.monir@shortcircuitcompany.com"
+  },
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/maha-monir-9b3117204/" },
+    { "label": "Company Website", "url": "https://shortcircuit.company" }
+  ],
+  "portfolio": [
+    {
+      "title": "DMX Hall Lighting Installation",
+      "description": "Technical documentation and system design for a large-scale DMX lighting control installation.",
+      "image": "assets/img/project-placeholder.svg",
+      "link": ""
+    },
+    {
+      "title": "Synchronized LED Installation",
+      "description": "Technical report and coordination for a synchronized large-scale LED installation.",
+      "image": "assets/img/project-placeholder.svg",
+      "link": ""
+    }
+  ]
+}

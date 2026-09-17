@@ -1,0 +1,178 @@
+/* ==========================================================================
+   Short Circuit Company — NFC Profile Card
+   Built against https://shortcircuit.company/SCbrand
+   Colors: Primary Red #EB1B26, Dark Red #A40E16, Black, Grey #CCCCCC, White
+   Type: Anton (EN headlines), Poppins (EN body), IBM Plex Sans Arabic (AR)
+   Scale: golden ratio, multiplier 1.618, base X = 16px
+   Layout: 80% content width, 10% margin each side
+   ========================================================================== */
+
+:root {
+  --sc-red: #EB1B26;
+  --sc-red-dark: #A40E16;
+  --sc-black: #000000;
+  --sc-grey: #CCCCCC;
+  --sc-white: #FFFFFF;
+
+  --x: 16px;                 /* base unit */
+  --ratio: 1.618;
+
+  --headline: calc(var(--x) * 3);        /* Anton, all caps, 3X */
+  --subhead: calc(var(--x) * var(--ratio)); /* Poppins medium, X*1.618 */
+  --small-head: calc(var(--x) * 2);      /* Poppins light caps, 2X */
+  --body: var(--x);                      /* Poppins regular, X */
+
+  --content-width: 80%;
+  --gap: calc(var(--x) * var(--ratio));
+}
+
+@font-face {
+  font-family: 'Anton';
+  src: local('Anton');
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--sc-black);
+  color: var(--sc-white);
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+body[lang="ar"] {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  direction: rtl;
+}
+
+.wrap {
+  width: var(--content-width);
+  max-width: 640px;
+  margin: 0 auto;
+  padding: calc(var(--x) * var(--ratio) * 2) 0 calc(var(--x) * var(--ratio) * 3);
+}
+
+/* ---- Logo ---- */
+.logo {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 0.445;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto calc(var(--gap) * 1.5);
+}
+
+/* ---- Hero: photo + identity ---- */
+.hero {
+  text-align: center;
+  margin-bottom: calc(var(--gap) * 2);
+}
+
+.hero__photo {
+  width: calc(var(--x) * var(--ratio) * 6);
+  height: calc(var(--x) * var(--ratio) * 6);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--sc-red);
+  margin: 0 auto var(--gap);
+  display: block;
+  background: #111;
+}
+
+.hero__name {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: var(--headline);
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.hero__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: var(--subhead);
+  color: var(--sc-red);
+  margin: calc(var(--x) * 0.4) 0 0;
+}
+
+/* ---- Linktree-style stack ---- */
+.linklist {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--x) * 0.75);
+  margin-top: calc(var(--gap) * 1.5);
+}
+
+.linkbtn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: calc(var(--x) * 1.05) var(--x);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: calc(var(--x) * 0.95);
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid var(--sc-grey);
+  color: var(--sc-white);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.linkbtn:hover, .linkbtn:focus-visible {
+  border-color: var(--sc-red);
+  background: rgba(235, 27, 38, 0.08);
+  transform: translateY(-1px);
+}
+
+.linkbtn:focus-visible {
+  outline: 2px solid var(--sc-white);
+  outline-offset: 2px;
+}
+
+.linkbtn--primary {
+  background: var(--sc-red);
+  border-color: var(--sc-red);
+}
+
+.linkbtn--primary:hover, .linkbtn--primary:focus-visible {
+  background: var(--sc-red-dark);
+  border-color: var(--sc-red-dark);
+}
+
+/* ---- Footer ---- */
+.footer {
+  text-align: center;
+  color: #555;
+  font-size: calc(var(--x) * 0.75);
+  margin-top: calc(var(--gap) * 3);
+  letter-spacing: 0.05em;
+}
+
+/* ---- Loading / error states ---- */
+.state {
+  text-align: center;
+  color: var(--sc-grey);
+  padding: calc(var(--gap) * 2) 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .wrap { animation: fade-in 0.4s ease-out; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 420px) {
+  :root { --x: 15px; }
+}
